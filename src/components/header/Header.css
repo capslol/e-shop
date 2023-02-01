@@ -1,0 +1,36 @@
+.header{
+    background-color: #fff;
+    width: 100%;
+}
+
+.header-nav{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+}
+    .header-nav__item,
+    .header-nav__item a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100px;
+        width: 185px;
+    }
+        .header-nav__item span{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 0.005em;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+        .header-nav__item.header-logo{
+            background-color: #fff;
+            width: 287px;
+        }
